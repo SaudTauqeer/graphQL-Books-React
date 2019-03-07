@@ -13,8 +13,7 @@
 	},
 	"scripts": {
 		"start": "serve /build",
-		"build": "react-scripts build",
-		"heroku-postbuild": "npm run build",
+		"heroku-postbuild": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
